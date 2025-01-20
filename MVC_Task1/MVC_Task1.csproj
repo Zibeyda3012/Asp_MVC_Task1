@@ -5,10 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Views\HotMeal\" />
-    <Folder Include="Views\Drink\" />
-    <Folder Include="Views\FastFood\" />
+    <Compile Remove="Models\**" />
+    <Content Remove="Models\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <None Remove="Models\**" />
   </ItemGroup>
 
 </Project>
